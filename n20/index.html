@@ -1,0 +1,246 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andromeda Centaurus Expeditions </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <header class="header-principal">
+
+        <section class="logo">
+            <h1>Andromeda Centaurus Expeditions </h1>
+        </section>
+
+
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="container fundo1">
+            <h2 class="titulo-container">Venha Viver uma Experiencia intergalatica</h2>
+
+            <p class="texto-container">
+                My Space foi a empresa que invou a exploração espacial, nos temos como visão somente a expansão da especie humana sem pensar em lucros. Nossa meta e fazer voce conhecer um abiente totalmente diferente do normal e se conectar com uma realidade totalmente
+                nova, conectando todas as sociedades e publicos.
+
+
+
+            </p>
+
+
+        </section>
+
+        <article class="container1 ">
+
+            <div class="imagens">
+                <h2 class="img-titulo">San Blás</h2>
+
+                <img class="img" src="./css/images/image 2.jpg" alt="">
+
+                <p class="texto-img">Venha tirar um tempo para descansar e refletir na natureza dentro dessa linda mata Extraterrestre. </p>
+
+
+            </div>
+
+
+            <div class="imagens">
+                <h2 class="img-titulo">Maya Bay</h2>
+                <img class="img" src="./css/images/image 3.jpg" alt="">
+                <p class="texto-img">Caso voce queira passar mais tempo perto da natureza e nadar Maya Bay e perfeita, aqui voce pode desfrutar do lago mais cristalineo conhecido pela humanidade e de um clima perfeito. </p>
+
+            </div>
+
+            <div class="imagens">
+                <h2 class="img-titulo">Stone Tress</h2>
+                <img class="img" src="./css/images/image 4.jpg" alt="">
+                <p class="texto-img">Stone Tress e o bioma com a maior diversidade de aves conhecido pela humanidade, venha aproveitar passeios ao lado de aves gigantes e paradisiacas. </p>
+
+            </div>
+            <div class="imagens">
+                <h2 class="img-titulo">Pink Beach</h2>
+
+                <img class="img" src="./css/images/image 5.jpg" alt="">
+                <p class="texto-img">Se voce e um amante de praias Pink Beach é o lugar perfeito, com suas vistas paradisiacas e mares totalmente cristalineos. Porem sua maior atracao e seu lago com coloracao rosa, onde voce pode nadar em aguas quentes e diferentes</p>
+
+            </div>
+
+
+        </article>
+
+        <form class="formulario1 fundo2" id="dados" action="" method="POST">
+            <h1 class="titulo-final">Consulte O Preco</h1>
+            <fieldset class="formulario">
+                <p>
+                    <label class="label" for="nome">Seu Nome:</label>
+                    <input class="input" type="text" name="nome" id="nome" placeholder="Digite Seu nome" ma>
+                </p>
+                <p>
+                    <label class="label" for="usuario">Seu Email:</label>
+                    <input class="input" type="text" name="Usuario" id="usuario" placeholder="Digite Seu Email" ma>
+                </p>
+                <p>
+                    <label class="label" for="data">Informe Sua data de Nascimento:</label>
+                    <input class="input" type="date" id="data">
+                </p>
+                <p>
+                    <label class="label" for="ida">Data da Viagem:</label>
+                    <input class="input" type="date" id="ida">
+                </p>
+                <p>
+                    <label class="label" for="pessoas">Selecione o Numero de pessoas:</label>
+                    <select class="input" id="pessoas" name="pessoas">
+                        <option value="0" selected="" disabled="">Selecione uma Opção:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3 </option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      
+                      
+                      
+                      </select>
+                </p>
+                <p>
+                    <label class="label" for="lugares">Escolha o destino:</label>
+                    <select class="input" id="lugares" name="lugares">
+                        
+                        <option value="1">San Blás</option>
+                        <option value="2">Maya Bay</option>
+                        <option value="3">Stone Tress</option>
+                        <option value="4">Pink Beach</option>
+                        
+                      
+                      
+                      
+                      </select>
+                </p>
+                <p>
+                    <input class="botao" type="button" id="chamar" value="Finalizar">
+                </p>
+
+
+
+
+
+            </fieldset>
+
+            <div class="Tabelas">
+                <table class="table">
+                    <tr>
+                        <th class="th-titulo">Nome:</th>
+                        <td class="th-txt">
+                            <p id="nomes" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th-titulo">Email:</th>
+                        <td class="th-txt">
+                            <p id="usuarios" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th-titulo">Data de Nascimento:</th>
+                        <td class="th-txt">
+                            <p id="datas" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th-titulo">Viajantes:</th>
+                        <td class="th-txt">
+                            <p id="resultado1" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th-titulo">Data da Viagem:</th>
+                        <td class="th-txt">
+                            <p id="datas1" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th-titulo">Destino:</th>
+                        <td class="th-txt">
+                            <p id="Destino" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th-titulo">Valor Total da Hospedagem:</th>
+                        <td class="th-txt">
+                            <p id="resultado" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th-titulo">Valor Total do translado:</th>
+                        <td class="th-txt">
+                            <p id="translado" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th-titulo">Valor Total:</th>
+                        <td class="th-txt">
+                            <p id="total" class="bg-info p-3 lead"></p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+
+
+
+
+        </form>
+
+
+
+
+    </main>
+
+
+
+
+    <footer class="rodape">
+
+        <section>
+            <h3>Andromeda Centaurus Expeditions</h3>
+        </section>
+        <section>
+            <p>Grupo Fallen </p>
+        </section>
+        <section>
+
+            <a href=""><span class="fab fa-instagram"></span>
+            </a>
+
+            <a href=""><span class="fab fa-twitter"> </span> </a>
+            <a href=""><span class="fab fa-youtube"></span> </a>
+            <a href=""><span class="fab fa-discord"></span>
+            </a>
+            <a href=""><span class="fab fa-twitch"></span></a>
+
+        </section>
+    </footer>
+
+
+
+
+
+
+    <script src="./js/formulario.js"></script>
+</body>
+
+</html>
